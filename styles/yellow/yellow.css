@@ -1,0 +1,186 @@
+body{
+	font-family: Lucida Sans, Lucida Grande, Verdana, Tahoma, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	background-color: white;
+	min-width:750px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #07f;
+}
+a:hover{
+	color: #6af;
+	text-decoration: underline;
+}
+a:visited{
+	color: #a4b;
+}
+h2{
+	font-size: 1.6em;
+	font-weight: bold;
+	padding: 0.3em;
+	margin: 0;
+}
+h3{
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+}
+p{
+	margin: 0 0 0.5em 0;
+}
+#htContainer{
+	
+}
+#htBanner{
+	text-align: center;
+	margin-bottom: 1em;
+}
+#htBannerTop{
+	background: #fff98f url("bannerTop.gif") repeat-x bottom center;
+	padding: 0;
+	margin: 0;
+}
+#htBannerTop a{
+	text-decoration: none;
+	color: inherit;
+}
+#htBannerTop a img{
+	border: none;
+}
+#htLogo{
+	background: url("c-ul.gif") no-repeat top left;
+	margin-bottom: 1em;
+	height: 7em;
+	padding: 0;
+	margin: 0;
+}
+#htLogo h1{
+	background: url("c-ur.gif") no-repeat top right;
+	font-size: 3em;
+	color: #cc9e33;
+	line-height: 2em;
+	padding: 0;
+	margin: 0;
+}
+
+#htBannerBot{
+	background: #d7c3ec url("bannerBot.png") repeat-x top;
+	line-height: 1.1em;
+	font-size: 1.1em;
+}
+#htNav{
+	background: url("c-bl.gif") no-repeat bottom left;
+}
+#htNav ul{
+	background: url("c-br.gif") no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+}
+#htNav ul li{
+	display: inline;
+	background-repeat: repeat-x;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	/*padding: 5em;*/
+}
+#htNav ul li a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#htNav ul li#htBlog{
+	background: #10b510 url("navBlog.png") repeat-x top;
+	color: #050;
+	border-left: 1px solid #6d6;
+	border-right: 1px solid #090;
+}
+#htNav ul li#htBlog:hover{
+	background: #7e7;
+}
+#htNav ul li#htVids{
+	background: #69f url("navVids.png") repeat-x top;
+	color: #058;
+	border-left: 1px solid #def;
+	border-right: 1px solid #69d;
+}
+#htNav ul li#htVids:hover{
+	background: #acf;
+}
+#htNav ul li#htGames{
+	background: #af2828 url("navGames.png") repeat-x top;
+	color: #fcc;
+	border-left: 1px solid #f99;
+	border-right: 1px solid #a00;
+}
+#htNav ul li#htGames:hover{
+	background: #f77;
+}
+#htNav ul li#htGrab{
+	background: #a878ff url("navGrab.png") repeat-x top;
+	color: #648;
+	border-left: 1px solid #dcf;
+	border-right: 1px solid #75a;
+}
+#htNav ul li#htGrab:hover{
+	background: #dbf;
+}
+#htNav ul li#htAbout{
+	background: #ffd56b url("navAbout.png") repeat-x top;
+	color: #763;
+	border-left: 1px solid #ffc;
+	border-right: 1px solid #ca5;
+}
+#htNav ul li#htAbout:hover{
+	background: #fe9;
+}
+
+
+#htWhatsNew{
+
+}
+#htWhatsNew #top{
+	background: #71d971 url("hBlog.png") repeat-x top;
+}
+#htWhatsNew #top #header{
+	background: url("c-ul.gif") no-repeat top left;
+}
+#htWhatsNew #top #header h2{
+	background: url("c-ur.gif") no-repeat top right;
+	color: #060;
+}
+
+#htWhatsNew #content{
+	background: #fff url("bgBlog.png") repeat-x top;
+	padding: 0.5em;
+}
+#htWhatsNew #content h3{
+	color: #060;
+}
+#htWhatsNew #content p{
+
+}
+#htWhatsNew #content img{
+	float: right;
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+#htWhatsNew #prevPages{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+#htWhatsNew #prevPages a{
+	margin-right: 1em;
+}
+
+
+#progress{
+	margin-top: 2em;
+}
